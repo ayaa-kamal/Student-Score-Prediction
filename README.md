@@ -27,12 +27,16 @@ Target Variable:
 
 ## Results
 
-| Model | R² Score |
-|---------|---------|
-| Linear Regression | 0.77 |
-| Random Forest | 0.65 |
-| Decision Tree | -0.04 |
+| Model | MAE | RMSE | R² Score |
+|-------|-----|------|----------|
+| Linear Regression | 0.45 | 1.80 | 0.77 |
+| Random Forest | 1.18 | 2.23 | 0.65 |
+| Decision Tree | 1.90 | 3.83 | -0.04 |
 
 ## Best Model
 
-Linear Regression achieved the best performance.
+Linear Regression achieved the best performance with:
+
+- R² Score = 0.77
+- MAE = 0.45
+- RMSE = 1.80
